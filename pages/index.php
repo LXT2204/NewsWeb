@@ -12,26 +12,29 @@
     <div class="wrapper">
         <div class="header">
         </div>
+        <!-- Menu chứa thể loại -->
         <div class="menu">
             <ul class="list_menu">
-                <li><a href="index.php">Trang Chủ</a></li>
+                <li><a href="index.php"><i class="fa-solid fa-house"></i></a></li>
                 <li><a href="#">Thể loại</a></li>
                 <li><a href="#">Thời sự</a></li>
                 <li><a href="#">Video</a></li>
                 <li><a href="#">Thế giới</a></li>
             </ul>
         </div>
-        <div id="main">
+        <!-- Khung chứa tin nổi bật -->
+        <div class="main">
             <div class="sidebar">
+                <h1 style="margin: 0 25%; color: white">Tin Nổi Bật</h1>
                 <ul class="list_sidebar">
-                    <li><a href="index.php">Trang Chủ</a></li>
-                    <li><a href="#">Thể loại</a></li>
-                    <li><a href="#">Thời sự</a></li>
-                    <li><a href="#">Video</a></li>
-                    <li><a href="#">Thế giới</a></li>
+                    <li><a href="index.php"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"> </a></li>
                 </ul>
             </div>
-            <div class="maincontent">
+            <div id="maincontent">
                 Main content
             </div>
 

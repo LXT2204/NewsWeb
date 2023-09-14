@@ -11,17 +11,17 @@ body {
 }
 .header {
   border: 1px solid #ff80ff;
-  height: 180px;
+  height: 150px;
   width: 100%;
   background-image: url(../image/Header_backgroup.jpg);
 }
 .menu {
-  border: 1px solid #1aff8c;
+  border: 3px solid #ff0000;
   height: 50px;
   width: 100%;
   background: #00e6ac;
 }
-#main {
+.main {
   border: 1px solid #00ff80;
   height: 400px;
   width: 100%;
@@ -34,7 +34,7 @@ body {
   margin-left: 5px;
   float: left;
 }
-.maincontent {
+#maincontent {
   border: 1px solid #00ff80;
   height: 390px;
   width: 79%;
@@ -69,7 +69,9 @@ ul.list_menu li {
 ul.list_menu li:hover {
   background-color: blue;
 }
-
+ul.list_menu li a button {
+  background-image: url(../image/home_icon.png);
+}
 ul.list_menu li a {
   text-decoration: none;
   color: red;
